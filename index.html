@@ -5,36 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | FAQ Accordion Card</title>
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!-- <script src="https://cdn.jsdelivr.net/npm/ismobilejs@1/dist/isMobile.min.js"></script> -->
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+  <div class="card__container">
+    <div class="card">
+      <div class="img__desktop-fixed">
+        <img class="img__desktop" src="images/bg-pattern-desktop.svg" id="img_desktop_mobile" alt="imagen">
+      </div>
+      <div class="image__container-fixed">
+        <div class="image__container">
+          <img src="/images/illustration-woman-online-desktop.svg" alt="imagen" class="image_desktop">
+        </div>
+        <img class="image__box" src="/images/illustration-box-desktop.svg" alt="box">
+      </div>
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
-
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
-
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
+      
+      <div class="faq__container">
+        <div class="faq__container-title">
+          <h1>FAQ</h1>
+        </div>
+        <div class="faq__container-questions">
+         
+          
+        </div>
+      </div>
+    </div>
+  </div>
+ 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a target="_BLANK" href="https://github.com/Asemxu">Renzo Jimenez Alfaro (Asemxu)</a>.
   </div>
+  <script  type="module" src="index.js"></script>
 </body>
 </html>
